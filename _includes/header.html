@@ -1,0 +1,122 @@
+<nav class="navbar is-centered" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item logo" href="/">
+      <img src="/marauder.png"/>
+    </a>
+  </div>
+
+    <button class="button navbar-burger" data-target="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+
+  <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="">
+          Team
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="">
+            History
+          </a>
+          <a class="navbar-item" href="">
+            What is FIRST?
+          </a>
+      </div>
+    </div>
+        <a class="navbar-item">
+          Parents
+        </a>
+        <a class="navbar-item">
+          Leaders
+        </a>
+        <a class="navbar-item">
+          Calendar
+        </a>
+        <a class="navbar-item">
+          Resources
+        </a>
+        <a class="navbar-item">
+          Resources
+        </a><a class="navbar-item">
+          Sponsors
+        </a><a class="navbar-item">
+          Media
+        </a><a class="navbar-item">
+          Contact
+        </a>
+        <div class="navbar-item">
+    <p class="control">
+      <a class="button is-dark">
+        <span class="icon">
+          <i class="fa fa-paypal" aria-hidden="true"></i>
+        </span>
+        <span>Donate</span>
+      </a>
+    </p>
+</div>
+      </div>
+
+  </div>
+</nav>
+
+
+
+
+<section class="hero is-primary">
+  <div class="hero-body">
+    <p class="title logo">
+      Technological Terrors
+    </p>
+    <p class="subtitle">
+      Welcome to Saint Peter's Preparatory School's Robotics Club: Team 5438!
+
+    </p>
+  </div>
+</section>
+
+<section class="hero is-info is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        It has been <strong> 11 </strong> days since kickoff!
+      </h1>
+      <h1 class="subtitle">
+        See what we've been up to through our blog posts, photos, and videos.
+      </h1>
+<iframe title="" width="300" height="571" scrolling="no" frameborder="0" id="383692837" name="383692837" allowtransparency="true" class="igm" src="//62v7anon172d27h4vuvvidc10rk0ft88-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/a/spprep.org/robotics/facebook.xml?attredirects%3D0%26d%3D1&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=99518b38e7130a81&amp;libs=core:setprefs&amp;mid=148&amp;parent=http://robotics.spprep.org/#st=e%3DAIHE3cA2PDCsKCz4DncTJA4V1O13BC%252BfjOKRDwsAWQQbfE2pVaRVPEBXg8TQs9ofS6mwOBvTuy0cIXXaLo3c6tbJkC86RVmCQhM2w21rxBZHJ8fVtlNyoKQ%252Bvg4%252Fho8llgV0v61ofi9X%26c%3Denterprise&amp;rpctoken=8831272722401298078"></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- // add to own file -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll('.navbar-burger'),
+    0
+  )
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function($el) {
+      $el.addEventListener('click', function() {
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target
+        var $target = document.getElementById(target)
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active')
+        $target.classList.toggle('is-active')
+      })
+    })
+  }
+})
+</script>

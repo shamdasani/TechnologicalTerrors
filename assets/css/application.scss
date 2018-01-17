@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// Imports
+@import 'variables';
+
+// Bulma.io CSS Framework
+@import 'bulma';
+
+
+// Custom
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+.logo {
+  font-family: 'Bungee Shade', 'Arial', sans-serif;
+  font-size: 3rem;
+  color: #800000;
+}
+
+.iframe {
+  width: 1155px;
+  height: 2048px;
+}
